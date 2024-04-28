@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body{
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Header*/
+#Logo{
+    width: 166px;
+    height: 147px;
+    margin-top: 4px;
+    margin-left: 16px;
+}
+
+/*Espacio entre los elementos del navbar*/
+#ul-nav li{
+    margin-left: 1rem;
+    margin-right: 1rem;
+} 
+/*Llevar el navbar a la derecha segun se cambié de dispositivos móbiles*/
+#navbarNavAltMarkup{
+    justify-content: end;
+}
+
+nav ul li{
+    padding: 10px 25px;
+    margin: 4px;
+    border: none;
+    border-radius: 30px;
+    background-color: #246387;
+}
+
+#ul-nav a{
+    font-size: 1rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    color: #FFFFFF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/*main*/
+
+.card-img{
+    min-height: 340px;
+    /*object-fit: contain;*/
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/*
+.card-s{
+    height: 640px;
+    border-style:solid;
+    border-color: #d0c8c8;
+    border-radius: 10px;
+    border-width: 1px;
+}
+*/
+
+/*Titulos de las cards - servicios*/
+.titles{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color: #d0c8c8;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.serviceCard{
+    min-height: 840px;
+}
+
+.containerText{
+    padding: 7rem 3rem 7rem 3rem;
+}
+
+#nosotros{
+    background-color: #e9e5e5;
+    color: #246387;
+}
+
+#testimonios{
+    background-color: #FFFFFF;
+    color: #246387;
+}
+
+
+.titulo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.texto{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    justify-content: center;
+    color:black;
+}
+
+
+
+#footerfs{
+    background-color: #246387;
+    padding: 1rem;
+}
+
+
+.texto-footer{       /*Decoración de la fuente en el footer*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.texto-footer2{       /*Decoración de la fuente en el footer*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: #FFFFFF;
+}

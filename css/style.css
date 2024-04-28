@@ -116,13 +116,13 @@ nav ul li{
 }
 
 
-.texto-footer{       /*Decoración de la fuente en el footer*/
+.texto-footer, .texto-footer2{       /*Decoración de la fuente en el footer*/
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 25px;
     color: #FFFFFF;
 }
 
-.texto-footer2{       /*Decoración de la fuente en el footer*/
+.texto-footer2, #nosotrosf, #serviciosf, #testimoniosf, #contactof, #FAQf{       /*Decoración de la fuente en el footer*/
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 15px;
     color: #FFFFFF;

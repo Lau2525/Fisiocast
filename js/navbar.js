@@ -6,7 +6,7 @@ if(navbarElement){
         nav.innerHTML = `
           
         <div class="container-fluid">
-            <a class="Contenedor-logo" href="#"><img id="Logo" src="./src/Images/Logo.jpg" alt="Fisiocast" width="300"></a>
+            <a class="Contenedor-logo" href="./index.html"><img id="Logo" src="./src/Images/Logo.jpg" alt="Fisiocast" width="300"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
